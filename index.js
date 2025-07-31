@@ -18,3 +18,4 @@ app.post('/usuarios/criar', (req, res) => {
   res.status(201).json({menssagem: `Rota de Post - usuarios - ${nome} - ${email}`});
 });
 
+app.listen(3000)
